@@ -1,0 +1,46 @@
+/* Header, footer */
+@import url('https://fonts.googleapis.com/css?family=Bangers|Oswald|Raleway:600|Sigmar+One&display=swap');
+nav {
+  background-color: #335BFF;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+
+.navbar-brand { 
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+}
+.disabled{
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+}
+main {
+    background-color:#1294EE;
+     background-position: center top;
+    background-size: 100% auto;
+    background-repeat:repeat;
+}
+footer{
+  background-color:#77B2D8;
+}
+.custom-2 {
+font-family: 'Raleway', italic;  
+}
+
+
+
